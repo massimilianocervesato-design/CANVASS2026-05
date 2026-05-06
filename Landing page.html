@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HerAmbiente - Networking Canvass 2026</title>
+    <style>
+        :root {
+            --primary-blue: #008ccf; /* Colore blu istituzionale Hera */
+            --her-dark: #2d3e48;
+        }
+        body { font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background-color: #f8fafc; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; text-align: center; color: var(--her-dark); }
+        .container { background: white; padding: 40px 30px; border-radius: 24px; box-shadow: 0 15px 35px rgba(0,0,0,0.08); width: 90%; max-width: 420px; }
+        .logo { width: 100%; max-width: 280px; margin-bottom: 30px; height: auto; }
+        h1 { font-size: 24px; margin-bottom: 12px; font-weight: 700; line-height: 1.2; }
+        p { color: #64748b; font-size: 16px; margin-bottom: 35px; line-height: 1.5; padding: 0 10px; }
+        .btn { display: inline-block; background-color: var(--primary-blue); color: white; padding: 20px 40px; border-radius: 16px; text-decoration: none; font-weight: 700; font-size: 18px; box-shadow: 0 8px 20px rgba(0, 140, 207, 0.3); transition: all 0.2s ease; border: none; cursor: pointer; }
+        .btn:active { transform: scale(0.96); box-shadow: 0 4px 10px rgba(0, 140, 207, 0.2); }
+        .footer { margin-top: 40px; font-size: 13px; color: #94a3b8; font-weight: 500; }
+        .divider { width: 40px; height: 3px; background: #e2e8f0; margin: 20px auto; border-radius: 2px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Logo HerAmbiente - Assicurati che l'immagine sia nella stessa cartella dell'HTML -->
+        <img src="logo.png" alt="HerAmbiente - Gruppo Hera" class="logo">
+        
+        <h1>CANVASS 2026<br>Networking Force</h1>
+        <div class="divider"></div>
+        <p>Tocca il pulsante qui sotto per importare istantaneamente i contatti nella tua rubrica</p>
+        
+        <!-- Link di download diretto configurato -->
+        <a href="https://drive.google.com/uc?export=download&id=1oZplkz__uP7IJgldmwPPGHGlp1kijag1" class="btn">
+            📥 IMPORTA CONTATTI
+        </a>
+
+        <div class="footer">
+            Asset Digitale Riservato<br>Società del Gruppo HERA
+        </div>
+    </div>
+</body>
+</html>
